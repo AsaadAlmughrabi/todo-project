@@ -1,57 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<link rel="stylesheet" href="./About.css">
+    <title>About</title>
 </head>
+<body>
 <header>
-    <p>
-    <img src="./images/logo.jpg" alt="logo" width="40" height="40" >
-    To Do List
-</p>
-
-
-
-    </nav>
-    <ul style="list-style-type:none; margin:0; padding:0;">
-        <li style="display:inline-block; padding: 10px;"><a href="./index.html">Home</a></li>
-        <li style="display:inline-block; padding: 10px;"><a href="./About.html">About</a></li>
-        <li style="display:inline-block; padding: 10px;"><a href="#">WeeklyTest</a></li>
+    <nav class="nav">
+    <ul class="ul">
+        <li class="a"><a href="./index.html">Home</a></li>
+        <li class="a"><a href="./About.html">About</a></li>  
     </ul>
-
-
+     <img src="./images/logo.jpg" alt="logo" class="image"> 
+</nav>
 </header>
 <main>
-    
-    <ul>
-    <img src="./images/myPhoto.jpg" alt="Asaad's photo" width="200px" height="200px"   >
-    <li>Name: Asaad </li>
-    <li>description:Im Asaad Alzaidi, 24 years old. I have a Bachelor in Computer Science since 2021 at Middle East University. Also,I am familiar with Java,HTML, CSS, and JS. In addition, I worked as an account manager at Zain Company for one year,
-         and some of my skills include communication, teamwork,  and working under pressure. </li>
+    <div class="div">
+      <img src="./images/myPhoto.jpg" alt="Asaad's photo" width="200px" height="200px">
+        <h1>Name: Asaad </h1>
+        <p>description:Im Asaad Alzaidi, 24 years old. I have a Bachelor in Computer Science since 2021 at Middle East
+            University. Also,I am familiar with Java,HTML, CSS, and JS. In addition, I worked as an account manager at
+            Zain Company for one year,
+            and some of my skills include communication, teamwork, and working under pressure.</p>
 
-        </ul>   
-        <div align="center">
-            <form method="post" action="">
-                <b><label >Contact us</label></b><br>
-             
-              <label >Name:</label><br>
-              <input type="text" id="name" name="name" required><br>
-      
-              <label >Email:</label><br>
-              <input type="email" id="email" name="email" required><br>
-      
-              <label >Message:</label><br>
-              <textarea id="message" name="message" required></textarea><br>
-      
-              <input type="submit" value="Submit"><br>
-            </form>
-        </div>
-        
+    <div align="center">
+        <form method="post" action="">
+            <b><label>Contact us</label></b><br>
+
+            <label>Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label>Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Submit" id="contact"><br>
+        </form>
+    </div>
+
 
 </main>
+</body>
 
-<footer>
-    <p>&copy; 2024 Powerd by To Do Team. All rights reserved.</p>
+<footer class="foot">
+    <p style="text-align: center;">&copy; 2024 Powerd by To Do Team. All rights reserved.</p>
 </footer>
+
 </html>
