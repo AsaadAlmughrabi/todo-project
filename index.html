@@ -5,49 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
     <title>To Do</title>
 </head>
+
 <body>
-<header>
-    <nav class="nav">
-    <ul class="ul">
-        <li class="a"><a href="./index.html">Home</a></li>
-        <li class="a"><a href="./About.html">About</a></li>  
-    </ul>
-     <img src="./images/logo.jpg" alt="logo" class="image"> 
-</nav>
+    <header>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="a"><a href="./index.html">Home</a></li>
+                <li class="a"><a href="./About.html">About</a></li>
+            </ul>
+            <img src="./images/logo.jpg" alt="logo" class="image">
+        </nav>
 
 
-</header>
-<main>
-    <h2 id="h2">To-Do List</h2>
-    <div class="table-container ">
-    <table  >
-        <tr>
-            <th>Tasks Today</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>Wake up At 9:00 Am And Reacap The last Lecture   <input type="checkbox"></td>
-            <td id="checked"></td>
-        </tr>
-        <tr>
-            <td>Solve the Assignments  <input type="checkbox"></td>
-            <td id="UnChecked"></td>
-            
-        </tr>
-        <tr>
-            <td>Prepare to the next Lecture  <input type="checkbox"></td>
-            <td id="checked"></td>
-        </tr>
-    </table>
-</div>
-</main>
+    </header>
+    <main>
+        <h2 id="h2">To-Do List</h2>
+        <div class="table-container ">
+            <table>
+                <tr>
+                    <th>Tasks Today</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Wake up At 9:00 Am And Reacap The last Lecture <input type="checkbox"></td>
 
-<footer class="foot">
-    <p>&copy; 2024 Powerd by To Do Team. All rights reserved.</p>
-</footer>
+                    <td class="colorBox ">
+                        <div class="box1"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Solve the Assignments <input type="checkbox"></td>
+                    <td class="colorBox ">
+                        <div class="box2"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Prepare to the next Lecture <input type="checkbox"></td>
+                    <td class="colorBox ">
+                        <div class="box3"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="foot">
+        <div>
+            <p>&copy; 2024 Powerd by To Do Team. All rights reserved.</p>
+
+    </footer>
 
 </body>
+
+
 
 </html>

@@ -48,16 +48,18 @@
     height: auto;
     border-radius: 50%;
     align-items: left;
+    margin-top: 50px;
 
 }
 
 .div p {
     font-size: 20px;
-    font-weight: bold;
+    font-style: italic;
+    font-family:  sans-serif;
+
     margin-top: 10px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #101011;
+    border-style: dotted;
+    border-color: brown;
 }
 
 .div h1 {
@@ -73,18 +75,27 @@
 #contact {
     background-color: gray;
 }
+a:visited {
+    color: rgb(119, 15, 15);
+  }
+  
+  a:hover {
+    color: rgb(221, 52, 52);
+  }
+  
+  a:active {
+    color: rgb(231, 165, 165);
+  }
 
 
 .foot {
 
-    position: absolute;
-    padding: 11px;
-    background-color: #808080;
-    height: 28px;
-    bottom: 0px;
-    left: 0px;
-    overflow: hidden;
-    padding-right: 79%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: left;
 
 
 }
