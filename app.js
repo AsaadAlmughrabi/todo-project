@@ -26,7 +26,7 @@ if (result == false) {
     }else if (gender == 'Female') {
         alert("Hello Ms. " + userName + " Welcome to our website!");
     } else {
-    alert("Hello! " + userName + " Welcome to our website! ");
+    alert("Hello! " + userName + " Welcome to our website! "); 
 }
 }
 
