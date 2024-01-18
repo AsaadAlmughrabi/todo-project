@@ -6,7 +6,7 @@ if (gender == "Male" || gender == "Female") {
     console.log("Gender: " + gender);
 }
 else {
-    console.log(alert("The Gender should be In a correct syntax like:  Male or Female"));
+   alert("The Gender should be In a correct syntax like:  Male or Female");
     gender = prompt("Please Enter your Gender Male/Female :");
     console.log("Gender: " + gender);
 }
@@ -22,11 +22,11 @@ if (age <= 0) {
 var result = confirm("do you want to skip welcoming massege?")
 if (result == false) {
     if (gender == 'Male') {
-        console.log(alert("Hello Mr. " + userName + " Welcome to our website!"))
-    } else if (gender == 'Female') {
-        console.log(alert("Hello Ms. " + userName + " Welcome to our website!"))
+        alert("Hello Mr. " + userName + " Welcome to our website!");
+    }else if (gender == 'Female') {
+        alert("Hello Ms. " + userName + " Welcome to our website!");
     } else {
-        console.log("Hello!" + userName + "Welcome to our website!")
-    }
+    alert("Hello! " + userName + " Welcome to our website! "); 
+}
 }
 
